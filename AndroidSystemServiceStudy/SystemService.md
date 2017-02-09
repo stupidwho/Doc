@@ -19,6 +19,7 @@ Binder作为系统服务中联系C层ManagerService和java层Manager的重要组
 
 整个流程包含4个内容，Client、Server、ServiceManager和Binder驱动，用户负责上层的Client、Server编程，通过ServiceManager进行通信与调用，而Binder驱动则是通信过程中的底层实现。
 
+![Binder](./binder_img.gif)
 
 
 ##### 
