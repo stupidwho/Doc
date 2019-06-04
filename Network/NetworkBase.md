@@ -44,6 +44,12 @@ http协议本身的设计其实很简单，只是在TCP/IP上建立的一种传�
 * Last-Modified：最后修改时间
 * Expires：过期时间长度
 
+### Get与Post对比
+
+* 1.Get在Url拼接参数，只能字符类型；Post参数放在body，可以接受多种数据格式
+* 2.Get参数长度受限于url长度，Post参数长度不受限
+* 3.安全性get更差，在url中，都可见；Post放在body中，一般不可见
+
 ## 缓存功能
 
 ## https协议
