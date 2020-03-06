@@ -1,21 +1,20 @@
 # Study Notes
 
-## Android
+### Android
 
-### 基础
+#### 基础
 
 * [AppBar](Android/AndroidBase/appbar.md)
 * [Dialog](Android/AndroidBase/dialog.md)
-* [Handler](Android/AndroidBase/Handler.md)
 * [ScreenOrientation](Android/AndroidBase/ScreenOrientation.md)
 * [TouchEvent](Android/AndroidBase/TouchEvent.md)
 
-### 安全
+#### 安全
 
-### 性能优化
+#### 性能优化
 
-## Gradle
+### Gradle
 
-## Network
+### Network
 
-## Cross-Platform
+### Cross-Platform
