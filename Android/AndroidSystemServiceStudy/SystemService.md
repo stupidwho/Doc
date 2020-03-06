@@ -1,11 +1,10 @@
 # Android 系统服务入门
 
-### 简述
-Android通过Service的方式提供各种各样的服务供应用使用，从而为应用开发提供多种多样的功能。通过service的方式进行服务的调用，包括最重要的ActivityManagerService、WindowManagerService等等内容，一般都是通过context.getServiceManager()获取服务的代理类，其真正的实现类就是XXXService。
+**Android通过Service的方式提供各种各样的服务供应用使用，从而为应用开发提供多种多样的功能。通过service的方式进行服务的调用，包括最重要的ActivityManagerService、WindowManagerService等等内容，一般都是通过context.getServiceManager()获取服务的代理类，其真正的实现类就是XXXService。**
 
 ### 服务基础Binder机制
 
-Android系统是基于linux的系统，因此进程是Android系统中的一个总要内容。而各种不同的Service处于不同的进程当中，如果需要调用不同的服务，则需要跨进程去调用以及传递数据，而如何跨进程的去调用这些服务，并且高效地传递数据、通讯，则需要更深入地去分析。Android为了使得这个过程更为适合移动端，自己建立了一套基于Binder的IPC机制，因此我们要了解各种服务的调用，首先要从Android的跨进程通信的机制研究开始。
+**Android系统是基于linux的系统，因此进程是Android系统中的一个总要内容。而各种不同的Service处于不同的进程当中，如果需要调用不同的服务，则需要跨进程去调用以及传递数据，而如何跨进程的去调用这些服务，并且高效地传递数据、通讯，则需要更深入地去分析。Android为了使得这个过程更为适合移动端，自己建立了一套基于Binder的IPC机制，因此我们要了解各种服务的调用，首先要从Android的跨进程通信的机制研究开始。**
 
 * Linux中跨进程的通信机制主要有管道方式、消息队列、共享内存、信号量、Socket等通信方式，从性能、安全性方面对比起来都没法满足移动端的需求
 
@@ -20,9 +19,6 @@ Binder作为系统服务中联系C层ManagerService和java层Manager的重要组
 整个流程包含4个内容，Client、Server、ServiceManager和Binder驱动，用户负责上层的Client、Server编程，通过ServiceManager进行通信与调用，而Binder驱动则是通信过程中的底层实现。
 
 ![Binder](./binder_img.gif)
-
-
-##### 
 
 
 ##### 性能分析
