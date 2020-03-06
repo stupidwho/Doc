@@ -1,3 +1,21 @@
-# Doc
+# Study Notes
 
-本人二十多年的复制粘贴功力尽在此项目当中，欢迎各路英雄好汉接力复制粘贴
+## Android
+
+### 基础
+
+* [AppBar](Android/AndroidBase/appbar.md)
+* [Dialog](Android/AndroidBase/dialog.md)
+* [Handler](Android/AndroidBase/Handler.md)
+* [ScreenOrientation](Android/AndroidBase/ScreenOrientation.md)
+* [TouchEvent](Android/AndroidBase/TouchEvent.md)
+
+### 安全
+
+### 性能优化
+
+## Gradle
+
+## Network
+
+## Cross-Platform
