@@ -10,7 +10,8 @@
 * [ScreenOrientation](Android/AndroidBase/ScreenOrientation.md)
 * [TouchEvent](Android/AndroidBase/TouchEvent.md)
 * [Android-O](Android/Platform/Android-O.md)
-* Android-10
+* [Android-P](Android/Platform/Android-P.md)
+* [Android-10](Android/Platform/Android-10.md)
 * [系统服务](Android/AndroidSystemServiceStudy/SystemService.md)
 * Handler
 
