@@ -25,6 +25,10 @@
 * [应用卡顿](Android/Performance/KaDun.md)
 * [手机唤醒](Android/Performance/Wake.md)
 
+#### 编译
+
+* [打包](Android/Package/Package.md)
+
 #### 第三方SDK
 
 * RePlugin
