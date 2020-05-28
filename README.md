@@ -28,6 +28,7 @@
 #### 编译
 
 * [打包](Android/Package/Package.md)
+* 打渠道包
 
 #### 第三方SDK
 
