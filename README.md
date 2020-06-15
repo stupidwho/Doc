@@ -33,7 +33,7 @@
 #### 第三方SDK
 
 * RePlugin
-* Tinker
+* [Tinker](Android/Tinker/Tinker.md)
 
 #### [Hybrid](Android/hybrid-doc/Hybrid.md)
 
